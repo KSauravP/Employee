@@ -7,13 +7,13 @@
                 th{
                     color:#ec167f;
                     padding: 10px;
-                    border: 1px solid blue;
+                    border: 1px solid black;
       border-radius: 10px;
                 }
                 h1, td{
-                    color: blue;
+                    color: Purple;
                     padding: 10px;
-                    border: 1px solid blue;
+                    border: 1px solid black;
       border-radius: 10px;
                 }
             </style></head>
