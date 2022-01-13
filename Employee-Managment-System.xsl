@@ -8,7 +8,7 @@
                 <xsl:apply-templates />
 
                 <table border="2" align="center">
-                    <tr>
+                    <tr bgcolor='yellow' font-style='comic sans ms'>
                         <th>ID</th>
                         <th>NAME</th>
                         <th>AGE</th>
@@ -43,10 +43,10 @@
                             <td>
                                 <xsl:value-of select="Emp-designation"></xsl:value-of>
                             </td>
-                            <td>
+                            <td bgcolor='sky blue'>
                                 <xsl:choose>
-                                    <xsl:when test="Emp-age &gt; 49">Associate Project Manager</xsl:when>
-                                    <xsl:when test="Emp-age &gt; 39">Team Leader</xsl:when>
+                                    <xsl:when test="Emp-age &gt; 49" >Associate Project Manager</xsl:when>
+                                    <xsl:when test="Emp-age &gt; 39" >Team Leader</xsl:when>
                                     <xsl:otherwise>Developer</xsl:otherwise>
                                 </xsl:choose>
                             </td>
