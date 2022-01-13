@@ -38,7 +38,7 @@
                                 <xsl:value-of select="Emp-emailid"></xsl:value-of>
                             </td>
                             <td>
-                                <xsl:value-of select="Emp-Phonenum"></xsl:value-of>
+                                <xsl:value-of select="Emp-phonenum"></xsl:value-of>
                             </td>
                             <td>
                                 <xsl:value-of select="Emp-designation"></xsl:value-of>
@@ -50,6 +50,8 @@
                                     <xsl:otherwise>Developer</xsl:otherwise>
                                 </xsl:choose>
                             </td>
+
+
                         </tr>
                     </xsl:for-each>
                 </table>

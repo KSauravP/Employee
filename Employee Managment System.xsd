@@ -12,7 +12,7 @@
                             <xs:element name="Emp-age" type="xs:integer"></xs:element>
                             <xs:element name="Emp-salary" type="salary"></xs:element>
                             <xs:element name="Emp-emailid" type="xs:string"></xs:element>
-                            <xs:element name="Emp-Phonenum" type="xs:string"></xs:element>
+                            <xs:element name="Emp-phonenum" type="xs:string"></xs:element>
                             <xs:element name="Emp-designation" type="xs:string"></xs:element>
                         </xs:sequence>
                     </xs:complexType>
