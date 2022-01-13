@@ -20,6 +20,10 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:unique name="unique">
+        <xs:selector xpath="Employee" />
+        <xs:field xpath="Emp-ID" />
+    </xs:unique>
 
     <xs:simpleType name="salary">
         <xs:restriction base="xs:integer">

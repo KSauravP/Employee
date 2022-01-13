@@ -3,7 +3,8 @@
     <xsl:template match="/">
         <!-- TODO: Auto-generated template -->
         <html>
-            <head><style>
+            <head>
+                <style>
                 th{
                     color:#ec167f;
                     padding: 10px;
@@ -16,7 +17,8 @@
                     border: 1px solid black;
       border-radius: 10px;
                 }
-            </style></head>
+            </style>
+            </head>
             <body>
                 <xsl:apply-templates />
 
@@ -58,8 +60,8 @@
                             </td>
                             <td bgcolor='sky blue'>
                                 <xsl:choose>
-                                    <xsl:when test="Emp-age &gt; 49" >Associate Project Manager</xsl:when>
-                                    <xsl:when test="Emp-age &gt; 39" >Team Leader</xsl:when>
+                                    <xsl:when test="Emp-age &gt; 49">Associate Project Manager</xsl:when>
+                                    <xsl:when test="Emp-age &gt; 39">Team Leader</xsl:when>
                                     <xsl:otherwise>Developer</xsl:otherwise>
                                 </xsl:choose>
                             </td>
