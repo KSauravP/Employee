@@ -3,7 +3,20 @@
     <xsl:template match="/">
         <!-- TODO: Auto-generated template -->
         <html>
-            <head></head>
+            <head><style>
+                th{
+                    color:#ec167f;
+                    padding: 10px;
+                    border: 1px solid blue;
+      border-radius: 10px;
+                }
+                h1, td{
+                    color: blue;
+                    padding: 10px;
+                    border: 1px solid blue;
+      border-radius: 10px;
+                }
+            </style></head>
             <body>
                 <xsl:apply-templates />
 
