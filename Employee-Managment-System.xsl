@@ -8,7 +8,7 @@
                 <xsl:apply-templates />
 
                 <table border="2" align="center">
-                    <tr bgcolor='yellow' font-style='comic sans ms'>
+                    <tr color='yellow' font-style='comic sans ms'>
                         <th>ID</th>
                         <th>NAME</th>
                         <th>AGE</th>
